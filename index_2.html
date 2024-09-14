@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="null.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style_2.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header_container container">
+				<div class="logo">
+					<img src="img/logo_header.svg"  alt="">
+				</div>
+				<div class="links">
+					<ul class="navigations">
+						<li class='navigations__link'><a href="">О компании</a></li>
+						<li class='navigations__link'><a href="">Главное</a></li>
+						<li class='navigations__link'><a href="">Услуги</a></li>
+						<li class='navigations__link'><a href="">Новости</a></li>
+					</ul>
+				</div>
+				<div class="mobile_menu">
+					<ul class="mobile_menu__navigations">
+						<li class='navigations__link'><a href="">О компании</a></li>
+						<li class='navigations__link'><a href="">Главное</a></li>
+						<li class='navigations__link'><a href="">Услуги</a></li>
+						<li class='navigations__link'><a href="">Новости</a></li>
+					</ul>
+						<div class="contact">
+							<div class="location">
+								<div class="location__adress">
+									<p>123456, г. Тавима, ул. Морская, д. 21</p>
+								</div>
+								
+							</div>
+							<div class="contact__phone">
+								
+								<div class="contact__number">
+									<p><a href="tel:">+7 (123) 456-67-89</a></p>
+								</div>
+							</div>
+							<div class="contact__email">
+								<div class="contact__email_adress">
+									<p><a href="mailto:">order@visma.ru</a></p>
+								</div>	
+							</div>
+						</div>
+				</div>
+				<div class="search_form">
+					<div class="search_form__loupe">
+						<img src="img/loupe.svg" alt="loupe">
+					</div>
+					<div class="search_form__input">
+						<input type="text">
+					</div>
+				</div>
+				<div class="select_language">
+					<select>
+						<option value="1" selected="" class="select_language_arrow">RU</option>
+						<option value="2" class="select_language_arrow">EN</option>
+					</select>
+				</div>
+				<div class="menu_burger_header menu_burger_header_open" onclick="OpenMenu()">
+					<p>☰</p>
+				</div>
+				<div class="menu_burger_header_close menu_burger_header" onclick="CloseMenu()">
+					<p>X</p>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<header class="main__path">
+				<p>Главная </p>
+				<img src="img/mini_arrow.svg" alt="">
+				<p>Клиентам</p>
+				<img src="img/mini_arrow.svg" alt="">
+				<p>Заявка и перечень документов для заключения договоров</p>
+			</header>
+					<div class="about_us__title requests_document">
+						<h1>Заявка и перечень документов для заключения договоров</h1>
+						<div class="about_us__text_container requests_document__text_container">
+							<p class="about_us__text requests_document__text">Для рассмотрения возможности заключения договора контрагент должен предоставить следующие документы:</p>
+							<ul>
+								<li>заявку (оферту) на имя генерального директора VISMA Technology, которая подается на фирменном бланке организации и должна содержать сведения о виде работ и услуг, на которые контрагент предлагает заключить договор, номенклатуре груза и общем объеме на год с разбивкой по месяцам.</li>
+								<li>Для резидентов РФ (документы должны быть заверены подписью руководителя и печатью организации):</li>
+								<li>копию выписки из ЕГРЮЛ (выданной не позднее одного месяца до даты заключения договора);</li>
+								<li>копии учредительных документов (устава, положения);</li>
+								<li>копию протокола или выписки из протокола о назначении исполнительного органа;</li>
+								<li>копию свидетельства о государственной регистрации;</li>
+								<li>копию приказа о назначении лица, действующего на основании положения;</li>
+								<li>копию доверенности представителя;</li>
+								<li>копию свидетельства о постановке на учет в качестве налогоплательщика;</li>
+								<li>заполненную карточку контрагента, заверенную подписью и печатью руководителя организации и главного бухгалтера и содержащую следующую информацию:</li>
+								<ul class="requests_document__list_number">
+									<li>Юридический адрес контрагента;</li>
+									<li>Фактический адрес контрагента;</li>
+									<li>Банковские реквизиты контрагента;</li>
+									<li>Контактная информация: номер факса, адрес электронной почты и контактные лица с указанием номеров телефонов.</li>
+								</ul>
+							</ul>
+							<p class="about_us__text requests_document__text">Для нерезидентов РФ (документы должны быть предоставлены с нотариально заверенным переводом на русский язык):</p>
+							<ul>
+								<li>выписка из Торгового реестра страны происхождения компании-контрагента (о благонадежности компании);</li>
+								<li>учредительные документы и документы регистрации фирмы (копии);</li>
+								<li>подтверждение полномочий лица на право подписания договора, нотариально заверенная доверенность с апостилем, либо выписка из протокола о назначении (избрании) на должность;</li>
+								<li> заполненную карточку контрагента, заверенную подписью и печатью руководителя организации и содержащую следующую информацию:</li>
+								<ul class="requests_document__list_number">
+									<li>Юридический адрес контрагента;</li>
+									<li>Фактический адрес контрагента;</li>
+									<li>Банковские реквизиты контрагента;</li>
+									<li>Контактная информация: номер факса, адрес электронной почты и контактные лица с указанием номеров телефонов.</li>
+								</ul>
+							</ul>
+						</div>
+					</div>
+		</main>
+		<footer class="footer">
+				<div class="contact-information">
+					<div class="contact-information__container container">
+						
+						<div class="location">
+								<div class="location__icon">
+									<img src="img/location_icon.svg" alt="">
+								</div>
+								<div class="location__adress">
+									<p>123456, г. Тавима, ул. Морская, д. 21</p>
+								</div>
+						</div>
+						<div class="logo">
+							<img src="img/logo_footer.svg" alt="">
+						</div>
+						<div class="contact">
+							<div class="contact__phone">
+								<div class="contact__phone_icon">
+									<img src="img/phone_icon.svg" alt="">
+								</div>
+								<div class="contact__number">
+									<p><a href="tel:">+7 (123) 456-67-89</a></p>
+								</div>
+							</div>
+							<div class="contact__email">
+								<div class="contact__email_icon">
+									<img src="img/email_icon.svg" alt="">
+								</div>
+								<div class="contact__email_adress">
+									<p><a href="mailto:">order@visma.ru</a></p>
+								</div>	
+							</div>
+						</div>
+						<div class="menu_burger_footer">
+							<p>☰</p>
+						</div>
+					</div>
+				</div>
+			<div class="footer_container">
+				<div class="other_information container">
+					<div class="other_information__blocks">
+						<div class="other_information__block">
+							<p>информация о юр. лице</p>
+							<ul>
+								<li>ОГРН 11111111111111111</li>
+								<li>ИНН 2222222222222</li>
+								<li>КПП 3333333333333</li>
+								<li>ОКПО 44444444444 ОКВЭД 52.24</li>
+								<li>ОКТМО 5555555555555</li>
+							</ul>
+						</div>
+						<div class="other_information__block">
+							<p>Закупки</p>
+							<ul>
+								<li>Нормативные документы</li>
+								<li>Закупки на VISMA Order</li>
+								<li>Закупки на VISMA Tender</li>
+							</ul>
+						</div>
+						<div class="other_information__block">
+							<p>акционерам</p>
+							<ul>
+								<li>Свидетельства госрегистрации</li>
+								<li>Список аффилированных лиц</li>
+								<li>Информация</li>
+								<li>Отчеты</li>
+							</ul>
+						</div>
+						<div class="other_information__block">
+							<p>о компании</p>
+							<ul>
+								<li>Порт сегодня</li>
+								<li>Характеристики порта</li>
+								<li>История</li>
+								<li>Дипломы и награды</li>
+								<li>Транспортная безопасность</li>
+								<li>Экология</li>
+								<li>Правовая информация</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="all_the_rights">все права защищены АО VISMA</div>
+			</div>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

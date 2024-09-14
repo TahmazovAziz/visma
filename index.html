@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="null.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header_container container">
+				<div class="logo">
+					<img src="img/logo_header.svg"  alt="">
+				</div>
+				<div class="links">
+					<ul class="navigations">
+						<li class='navigations__link'><a href="">О компании</a></li>
+						<li class='navigations__link'><a href="">Главное</a></li>
+						<li class='navigations__link'><a href="">Услуги</a></li>
+						<li class='navigations__link'><a href="">Новости</a></li>
+					</ul>
+				</div>
+				<div class="mobile_menu">
+					<ul class="mobile_menu__navigations">
+						<li class='navigations__link'><a href="">О компании</a></li>
+						<li class='navigations__link'><a href="">Главное</a></li>
+						<li class='navigations__link'><a href="">Услуги</a></li>
+						<li class='navigations__link'><a href="">Новости</a></li>
+					</ul>
+						<div class="contact">
+							<div class="location">
+								<div class="location__adress">
+									<p>123456, г. Тавима, ул. Морская, д. 21</p>
+								</div>
+								
+							</div>
+							<div class="contact__phone">
+								
+								<div class="contact__number">
+									<p><a href="tel:">+7 (123) 456-67-89</a></p>
+								</div>
+							</div>
+							<div class="contact__email">
+								<div class="contact__email_adress">
+									<p><a href="mailto:">order@visma.ru</a></p>
+								</div>	
+							</div>
+						</div>
+				</div>
+				<div class="search_form">
+					<div class="search_form__loupe">
+						<img src="img/loupe.svg" alt="loupe">
+					</div>
+					<div class="search_form__input">
+						<input type="text">
+					</div>
+				</div>
+				<div class="select_language">
+					<select>
+						<option value="1" selected="" class="select_language_arrow">RU</option>
+						<option value="2" class="select_language_arrow">EN</option>
+					</select>
+				</div>
+				<div class="menu_burger_header menu_burger_header_open" onclick="OpenMenu()">
+					<p>☰</p>
+				</div>
+				<div class="menu_burger_header_close menu_burger_header" onclick="CloseMenu()">
+					<p>X</p>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="top">
+				<div class="top__container container">
+					<div class="top__title">
+						<h1>Тавимский морской порт VISMA</h1>
+						<p>
+						Vel posuere nibh odio placerat massa vel tellus tortor. Varius eget nunc scelerisque etiam felis facilisi ante viverra sem. Nunc eros elementum.
+						</p>
+						<div class="top__about_us">
+							<p><b>о компании</b></p>
+							<div class="top__arrow">
+								<img src="img/arrow.svg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="top__list_services">
+						<div class="top__services_blocks">
+							<div class="top__block">
+								<p class="top__block_title">услуги</p>
+								<p class="top__block_subtitle">Погрузочно-разгрузочная деятельность</p>
+							</div>
+							<div class="top__block">
+								<p class="top__block_title">услуги</p>
+								<p class="top__block_subtitle">Хранение грузов</p>
+							</div>
+							<div class="top__block">
+								<p class="top__block_title">услуги</p>
+								<p class="top__block_subtitle">Складские операции</p>
+							</div>
+							<div class="top__block">
+								<p class="top__block_title">услуги</p>
+								<p class="top__block_subtitle">Швартовые операции</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="services">
+				<div class="services__container container">
+					<div class="services__pdf">
+					<div class="services__title">
+						<h1>Услуги</h1>
+					</div>
+						<ul class="services__list_pdf">
+							<li class="services__pdf_item">
+								<div class="services__pdf_name">
+									<p><a href="">Тарифы на услуги по обеспечению контроля доступа на территорию VISMA на 2022 год</a></p>
+								</div>
+								<div class="services__pdf_icon">
+									<img src="img/pdf_icon.svg" alt="">
+								</div>
+							</li>
+							<li class="services__pdf_item">
+								<div class="services__pdf_name">
+									<p><a href="">Условия определения цены договора и тарифы на работы</a></p>
+								</div>
+								<div class="services__pdf_icon">
+									<img src="img/pdf_icon.svg" alt="">
+								</div>
+							</li>
+							<li class="services__pdf_item">
+								<div class="services__pdf_name">
+									<p><a href="">Договор перевалки (типовая форма)</a></p>
+								</div>
+								<div class="services__pdf_icon">
+									<img src="img/pdf_icon.svg" alt="">
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="services__blocks">
+						<div class="services__block serv_b_1">
+							<p class="services__block_title  top__block_title">услуги</p>
+							<p class="services__block_subtitle top__block_subtitle">Хранение грузов</p>
+						</div>
+						<div class="services__block serv_b_2">
+							<p class="services__block_title top__block_title">услуги</p>
+							<p class="services__block_subtitle top__block_subtitle">Швартовые операции</p>
+						</div>
+						<div class="services__block serv_b_3">
+							<p class="services__block_title top__block_title">услуги</p>
+							<p class="services__block_subtitle top__block_subtitle">Складские операции</p>
+						</div>
+						<div class="services__block serv_b_4">
+							<p class="services__block_title top__block_title">услуги</p>
+							<p class="services__block_subtitle top__block_subtitle">Агентское обслуживание судов</p>
+						</div>
+						<div class="services__block serv_b_5">
+							<p class="services__block_title top__block_title">услуги</p>
+							<p class="services__block_subtitle top__block_subtitle">Буксировка / сопровождение судов</p>
+						</div>
+						<div class="services__block serv_b_6">
+							<p class="services__block_title top__block_title">услуги</p>
+							<p class="services__block_subtitle top__block_subtitle">Погрузочно-разгрузочная деятельность</p>
+						</div>
+					</div>
+				</div>					
+			</div>
+
+			<div class="about_us">
+				<div class="about_us__container container">
+					<div class="about_us__title">
+						<h1>О компании</h1>
+						<div class="about_us__text_container">
+							<p class="about_us__text">
+								Tristique orci consectetur sit felis. Sed ac auctor tellus lobortis. Enim non turpis nulla nec a sapien sit amet molestie. Et id malesuada gravida sit volutpat. Volutpat sed lectus elementum diam neque facilisis in. Convallis nibh sem in viverra quis. Interdum pharetra.
+							</p>
+							<p class="about_us__text">Libero nunc porttitor id mi convallis ultricies convallis erat. At sagittis nisi at in diam sit.</p>
+							<ul>
+								<li>Vivamus tincidunt non lectus odio magna semper odio risus</li>
+								<li>Vivamus tincidunt non lectus odio magna semper odio risus</li>
+								<li>Vivamus tincidunt non lectus odio magna semper odio risus. Vivamus tincidunt non lectus odio magna semper odio risus.Vivamus tincidunt non lectus odio magna semper odio risus.</li>
+								<li>Vivamus tincidunt non lectus odio magna semper odio risus</li>
+								<li>Vivamus tincidunt non lectus odio magna semper odio risus</li>
+							</ul>
+							<p class="about_us__text">Quam accumsan mauris enim quam. A commodo ultrices urna vitae nibh rhoncus at nisl. Duis nibh libero ut enim. Metus aliquam cursus molestie sapien risus. Suspendisse volutpat.</p>
+							<ul>
+								<li>Vivamus tincidunt non lectus odio magna semper odio risus</li>
+								<li>Vivamus tincidunt non lectus odio magna semper odio risus</li>
+								<li>Vivamus tincidunt non lectus odio magna semper odio risus</li>
+								<li>Vivamus tincidunt non lectus odio magna semper odio risus</li>
+							</ul>
+						</div>
+					</div>
+					<div class="about_us__preview">
+						<div class="about_us__video">
+							<video src="" poster="img/ships.jpg"></video>
+						</div>
+						<div class="about_us__info_block">
+							<p class="about_us__inf_block_title">Запрос ставки и условий погрузочно-разгрузочных работ</p>
+							<p class="about_us__inf_block_subtitle">Рассчитайте моментально стоимость полных портовых услуг в порту VISMA</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="news">
+					<div class="news__container container">
+					<h1>Новости</h1>
+					<div class="news__bloks">
+						<div class="news__block">
+							<div class="news__image">
+								<img src="img/cranes.png" alt="">
+							</div>
+							<div class="news__date">
+								<p>20/05/22</p>
+							</div>
+							<div class="news__text">
+								<h3>Semper eu pulvinar eget integer</h3>
+								<p>Pretium duis phasellus netus ac. Nunc nibh nunc integer feugiat et aliquam cras. Amet pharetra montes ipsum gravida tellus tellus.</p>
+							</div>
+						</div>
+						<div class="news__block">
+							<div class="news__image">
+								<img src="img/m_ships.png" alt="">
+							</div>
+							<div class="news__date">
+								<p>20/05/22</p>
+							</div>
+							<div class="news__text">
+								<h3>Vitae id nec nulla sit nunc cursus curabitur tempus vel enim.</h3>
+								<p>Cras arcu ac commodo suspendisse commodo ipsum turpis dui. Quis pharetra malesuada eget sit egestas et integer. Suspendisse a.
+								</p>
+							</div>
+						</div>
+						<div class="news__block">
+							<div class="news__image">
+								<img src="img/conteiners.png" alt="">
+							</div>
+							<div class="news__date">
+								<p>30/12/21</p>
+							</div>
+							<div class="news__text">
+								<h3>Integer nisi sagittis in aliquet. Enim eget varius lacinia est a.</h3>
+
+								<p>Lectus tempus felis pretium vitae. Tempor massa vestibulum condimentum cursus diam quam. Mattis facilisi dignissim donec eget vel.</p>
+							</div>
+						</div>
+						<div class="news__block">
+							<div class="news__image">
+								<img src="img/more_containers.png" alt="">
+							</div>
+							<div class="news__date">
+								<p>29/06/21</p>
+							</div>
+							<div class="news__text">
+								<h3>Facilisis vitae proin quis</h3>
+								<p>Iaculis diam quam velit sit nunc turpis ultricies elementum. Vitae lacinia tristique rutrum faucibus nulla quis ultricies. Risus.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+				<div class="contact-information">
+					<div class="contact-information__container container">
+						
+						<div class="location">
+								<div class="location__icon">
+									<img src="img/location_icon.svg" alt="">
+								</div>
+								<div class="location__adress">
+									<p>123456, г. Тавима, ул. Морская, д. 21</p>
+								</div>
+						</div>
+						<div class="logo">
+							<img src="img/logo_footer.svg" alt="">
+						</div>
+						<div class="contact">
+							<div class="contact__phone">
+								<div class="contact__phone_icon">
+									<img src="img/phone_icon.svg" alt="">
+								</div>
+								<div class="contact__number">
+									<p><a href="tel:">+7 (123) 456-67-89</a></p>
+								</div>
+							</div>
+							<div class="contact__email">
+								<div class="contact__email_icon">
+									<img src="img/email_icon.svg" alt="">
+								</div>
+								<div class="contact__email_adress">
+									<p><a href="mailto:">order@visma.ru</a></p>
+								</div>	
+							</div>
+						</div>
+						<div class="menu_burger_footer">
+							<p>☰</p>
+						</div>
+					</div>
+				</div>
+			<div class="footer_container">
+				<div class="other_information container">
+					<div class="other_information__blocks">
+						<div class="other_information__block">
+							<p>информация о юр. лице</p>
+							<ul>
+								<li>ОГРН 11111111111111111</li>
+								<li>ИНН 2222222222222</li>
+								<li>КПП 3333333333333</li>
+								<li>ОКПО 44444444444 ОКВЭД 52.24</li>
+								<li>ОКТМО 5555555555555</li>
+							</ul>
+						</div>
+						<div class="other_information__block">
+							<p>Закупки</p>
+							<ul>
+								<li>Нормативные документы</li>
+								<li>Закупки на VISMA Order</li>
+								<li>Закупки на VISMA Tender</li>
+							</ul>
+						</div>
+						<div class="other_information__block">
+							<p>акционерам</p>
+							<ul>
+								<li>Свидетельства госрегистрации</li>
+								<li>Список аффилированных лиц</li>
+								<li>Информация</li>
+								<li>Отчеты</li>
+							</ul>
+						</div>
+						<div class="other_information__block">
+							<p>о компании</p>
+							<ul>
+								<li>Порт сегодня</li>
+								<li>Характеристики порта</li>
+								<li>История</li>
+								<li>Дипломы и награды</li>
+								<li>Транспортная безопасность</li>
+								<li>Экология</li>
+								<li>Правовая информация</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="all_the_rights">все права защищены АО VISMA</div>
+			</div>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

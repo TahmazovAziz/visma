@@ -1,0 +1,25 @@
+.main__path{
+	display: flex;
+	background: #d2d2d2;
+}
+.main__path>p{
+	margin:20px;
+
+}
+.requests_document>h1{
+	text-align: center;
+	font-size: 40px;
+}
+.requests_document__list_number>li{
+	list-style: auto;
+	margin-top:10px;
+	padding-bottom: 10px;
+}
+.requests_document__list_number{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.requests_document{
+	margin: 50px auto;
+	color: #333333;
+}
